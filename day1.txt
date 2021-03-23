@@ -1,0 +1,53 @@
+p = "concentration"
+>>> type(p)
+<class 'str'>
+>>> p.upper()
+'CONCENTRATION'
+>>> p.lower()
+'concentration'
+>>> p.title()
+'Concentration'
+>>> p.capitalize()
+'Concentration'
+>>> p  = "concentration is an important factor for success"
+>>> p.title()
+'Concentration Is An Important Factor For Success'
+>>> p.capitalize()
+'Concentration is an important factor for success'
+>>> p.count("a")
+4
+>>> p.replace("i","I")
+'concentratIon Is an Important factor for success'
+>>> print("Concentration Is an important factor for success.upper()")
+Concentration Is an important factor for success.upper()
+>>> school = "BriliantHsc"
+>>> priceOfUniform= 3000000
+>>> location = "London"
+
+>>> print (f"Dear new {school} student , the price of the new uniforms is {priceOfUniform} UGX and we have moved to {location}")
+Dear new BriliantHsc student , the price of the new uniforms is 3000000 UGX and we have moved to London
+>>> print ("Concentraton is \nan important factor for success")
+Concentraton is 
+an important factor for success
+>>> print ("Concentration is \ran important factor for success")
+an important factor for success
+>>> print("Concentration is an \vimportant factor for success")
+Concentration is an 
+                    important factor for success
+>>> name = "birungiMercy"
+>>> name.index("M")
+7
+>>> name[2:6]
+'rung'
+>>> name[6:7]
+'i'
+>>> 
+>>> name[-2:-4].upper()
+''
+>>> name[2: ]
+'rungiMercy'
+>>> name[ :2]
+'bi'
+>>> 
+
+
